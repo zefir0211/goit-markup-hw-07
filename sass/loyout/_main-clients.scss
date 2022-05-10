@@ -1,0 +1,42 @@
+.main-clients {
+    padding: 94px 0px;
+}
+
+.main-clients-heading {
+    margin-bottom: 50px;
+}
+
+.main-clients-list {
+    display: flex;
+    justify-content: center;
+}
+
+.main-clients-item+.main-clients-item {
+    margin-left: 30px;
+}
+
+.main-clients-link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-clients-icon {
+    fill: #AFB1B8;
+}
+
+.main-clients-link:hover,
+.main-clients-link:focus {
+    border: 1px solid var(--active-text-color);
+}
+
+.main-clients-link:hover .main-clients-icon,
+.main-clients-link:focus .main-clients-icon {
+    fill: var(--active-text-color);
+}
