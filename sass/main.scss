@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
 }
 
-.section {
+.main__section {
     margin: auto;
 }
 
@@ -20,7 +20,7 @@ svg,
 .main-btn,
 .main-team-list a,
 svg,
-.main-clients-list a,
+.clients-list a,
 svg,
 .team-social-links a,
 svg,
@@ -41,11 +41,11 @@ span,
 @import "./utils/vars";
 @import "./base/reset";
 @import "./loyout/header";
-@import "./loyout/main-lead";
-@import "./loyout/main-list-content";
-@import "./loyout/main-skills";
-@import "./loyout/main-team";
-@import "./loyout/main-clients";
+@import "./loyout/main-section/main-lead";
+@import "./loyout/main-section/main-list-content";
+@import "./loyout/main-section/main-skills";
+@import "./loyout/main-section/main-team";
+@import "./loyout/main-section/main-clients";
 @import "./loyout/modal-windows";
 @import "./loyout/footer";
 @import "./loyout/portfolio-main-section";

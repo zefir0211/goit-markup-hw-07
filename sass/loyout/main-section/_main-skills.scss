@@ -7,29 +7,23 @@ img {
     padding-bottom: 94px;
 }
 
-.main-heading-text {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-nav-text-color);
-}
+@import "../../components/main-heading__text";
 
-.main-img {
+.experience-list {
     display: flex;
 }
 
-.main-img-item {
+.experience-list__item {
+    display: inline;
     margin-right: 30px;
     position: relative;
 }
 
-.main-img-item:last-child {
+.experience-list__item:last-child {
     margin: 0;
 }
 
-.main-img-text {
+.experience-list__text {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -49,10 +43,6 @@ img {
     color: #FFFFFF;
 }
 
-.main-skills-heading {
+.main-skills__heading {
     margin-bottom: 50px;
-}
-
-ul.main-img li {
-    display: inline;
 }

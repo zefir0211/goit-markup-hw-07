@@ -2,19 +2,19 @@
     padding-top: 94px;
 }
 
-.main-list {
+.main-qualities {
     display: flex;
 }
 
-.main-item {
+.main-qualities__item {
     margin-right: 30px;
 }
 
-.main-item:last-child {
+.main-qualities__item:last-child {
     margin: 0;
 }
 
-.main-icon-container {
+.main-qualities__container {
     width: 270px;
     height: 120px;
     background-color: var(--background-color-team);
@@ -25,7 +25,7 @@
     margin-bottom: 30px;
 }
 
-.main-item-heading {
+.main-qualities__heading {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -35,7 +35,7 @@
     color: var(--title-nav-text-color);
 }
 
-.main-item-text {
+.main-qualities__text {
     width: 270px;
 
     font-weight: 400;
